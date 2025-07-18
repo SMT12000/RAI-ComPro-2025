@@ -7,7 +7,7 @@ int main()
     b = 21;
     c = 56;
     d = (a+b)-c;
-    printf("(%d+%d)-%d = %d",a,b,c,d);
+    printf("%d\n",d);
     return 0;
 
 }
