@@ -1,23 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int number;
 
     printf("Enter a number: ");
-    scanf("%d", &num);
+    scanf("%d", &number);
 
-    if ( num > 100) {
-        printf("%d is out of range.\n",num);
-    } else {
-        if (num % 2 == 0) {
-            printf("The number is even\n");
+    if (number >= 1 && number <= 100) {
+        if (number % 2 == 0) {
+            printf("%d is even\n", number);
         } else {
-            printf("The number is odd\n");
+            printf("%d is odd\n", number);
         }
+    } else {
+        printf("%d is out of range\n", number);
     }
 
     return 0;
 }
-
-
-
