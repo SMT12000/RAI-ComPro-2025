@@ -11,7 +11,7 @@ int main() {
         sum += num;
     }
 
-    average = sum / 10;
+    average = sum / 10.0;
 
     printf("total sum is %d\n", sum);
     printf("Average is %.2f\n", average);
